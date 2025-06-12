@@ -70,7 +70,7 @@ class SampledText extends StatelessWidget {
           height: 300,
           width: 500,
           child: ListView(children: [
-            Text(text, style: TextStyle(fontSize: 70)),
+            Text('Scroll me', style: TextStyle(fontSize: 70)),
             Text(text, style: TextStyle(fontSize: 60)),
             Text(text, style: TextStyle(fontSize: 50)),
             Text(text, style: TextStyle(fontSize: 70)),
@@ -82,6 +82,6 @@ class SampledText extends StatelessWidget {
           ]),
         ),
       );
-    }, assetKey: 'shaders/v.frag');
+    }, assetKey: 'shaders/liquid_glass.frag');
   }
 }

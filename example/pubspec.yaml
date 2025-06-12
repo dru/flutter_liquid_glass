@@ -23,4 +23,4 @@ flutter:
     - shaders/sampler.frag
     - shaders/solid_color.frag
     - shaders/blank.frag
-    - shaders/v.frag
+    - shaders/liquid_glass.frag
